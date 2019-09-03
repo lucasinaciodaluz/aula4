@@ -1,4 +1,13 @@
-const users = [{ id: 1, code: 2 }, { id: 2, code: 1 }];
+const users = [
+  {
+    id: 1,
+    code: 2,
+  },
+  {
+    id: 2,
+    code: 1,
+  },
+];
 
 class UserController {
   list(req, res) {
